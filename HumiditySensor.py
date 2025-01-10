@@ -10,6 +10,7 @@ try:
         sense.show_message(str(h), scroll_speed=0.05)
 
 except KeyboardInterrupt:
+    print('Application Terminated.')
     sense.clear()
 
     
